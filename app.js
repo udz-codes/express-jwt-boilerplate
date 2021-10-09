@@ -2,19 +2,20 @@ const express = require('express');
 const app = express()
 const mongoose = require('mongoose');
 
-// Environment variables
-require('dotenv/config')
+require('dotenv/config'); // Environment variables
 
 // Route imports
 const homeRoutes = require('./routes/home')
 const authRoutes = require('./routes/auth')
+const privateRoutes = require('./routes/privateRoutes')
 
 
 // Middlewares
 app.use(express.json());
-// Route Middlewares
-app.use('/', homeRoutes)
-app.use('/api/user', authRoutes)
+// -> Route Middlewares
+app.use('/', homeRoutes);
+app.use('/api/private', privateRoutes);
+app.use('/api/user', authRoutes);
 
 
 // Connect to Database

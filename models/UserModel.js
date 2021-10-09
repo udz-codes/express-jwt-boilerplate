@@ -19,6 +19,9 @@ const UserSchema = new mongoose.Schema({
         type: Date,
         default: Date.now
     }
+
+    // Add more fields here
+    
 })
 
 module.exports = mongoose.model('User', UserSchema);
