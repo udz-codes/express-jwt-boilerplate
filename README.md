@@ -59,3 +59,6 @@ npm start
 | [mongoose](https://www.npmjs.com/package/mongoose) | ^6.0.9 | Connecting to MongoDB |
 | [bcryptjs](https://www.npmjs.com/package/bcryptjs) | ^2.4.3 | Hashing the password  |
 | [@hapi/joi](https://www.npmjs.com/package/joi) | ^17.1.1 | Schema validation check |
+
+## Contributions
+Contributions are welcomed, to learn more about it, please check [Contributing.md](https://github.com/udz-codes/express-rest-boilerplate/blob/master/Contributing.md).
