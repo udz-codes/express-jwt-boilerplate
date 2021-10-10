@@ -2,10 +2,7 @@
 A simple ExpressJS REST API Boilerplate with JWT authentication and MongoDB as database. We welcome all developers and open source enthusiasts to contribute to this project.
 
 # License 
-This project is licensed under the terms of the **MIT license.**
-
-
-<br>
+This project is licensed under the terms of the [**MIT license.**](https://github.com/udz-codes/express-rest-boilerplate/blob/master/LICENSE)
 
 #  Boilerplate Features:
 - Registration
@@ -16,29 +13,25 @@ This project is licensed under the terms of the **MIT license.**
 - Password Encryption
 - MongoDB Backend
 
-<br>
+# Types of contributions you can make to this Repository ?
+- Documentation
+- Bug Fixes
+- New Features, etc.
 
-## 🌎 How to contribute to this Repository ?
+> NOTE: For any kind of contribution, please create a new issue or discuss in existing issues.
 
-```
-   1. Fork the repository
-   
-   2. Clone the forked repository to your local machine
-   
-   3. Change the present directory
-   
-   4. Add your files and projects
-   
-   5. Make a new branch and make changes in the repository with the new branch
-   
-   6. Push the changes
-   
-   7. Create a Pull Request
-   
-   8. Keep patience for the project maintainer to review and merge the PR
-   
-```
-<br>
+# How to contribute to this Repository ?
+
+1. Choose an issue from the issue tab or Create a new issue.
+2. Wait for that issue to be assigned to you.
+3. Fork the repository.
+4. Clone the forked repository to your local machine.
+5. Navigatre to the root of clones directory.
+6. Make a new branch and make changes in the repository with the new branch.
+7. Commit changes in the new branch.
+8. Push the changes to your fork.
+9. Create a Pull Request.
+10. Keep patience for the project maintainer to review and merge the PR.
 
 # Code Of Conduct
  By using **ExpressJS REST API Boilerplate**, you agree that you will follow this code of conduct.
