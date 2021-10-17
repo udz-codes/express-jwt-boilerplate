@@ -4,7 +4,8 @@
   "description": "An express REST API boilerplate with JWT authentication",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "@udz-codes",
   "license": "ISC",
