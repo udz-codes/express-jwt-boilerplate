@@ -60,6 +60,7 @@ npm start
 | [bcryptjs](https://www.npmjs.com/package/bcryptjs) | ^2.4.3 | Hashing the password  |
 | [@hapi/joi](https://www.npmjs.com/package/joi) | ^17.1.1 | Schema validation check |
 | [dotenv](https://www.npmjs.com/package/dotenv) | ^10.0.0 | Loads environment variables |
+| [cors](https://www.npmjs.com/package/cors) | ^2.8.5| enable CORS |
 
 ## Contributions
 Contributions are welcomed, to learn more about it, please check [Contributing.md](https://github.com/udz-codes/express-rest-boilerplate/blob/master/Contributing.md).

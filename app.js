@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express()
+const cors = require('cors')
 const mongoose = require('mongoose');
 
 require('dotenv/config'); // Environment variables
@@ -11,6 +12,7 @@ const privateRoutes = require('./routes/privateRoutes')
 
 
 // Middlewares
+app.use(cors());
 app.use(express.json());
 // -> Route Middlewares
 app.use('/', homeRoutes);
