@@ -1,6 +1,6 @@
 # ExpressJS REST API Boilerplate
 
-A simple ExpressJS REST API Boilerplate with JWT authentication and MongoDB as database.
+A cookiecutter template to create REST API with ExpressJS and MongoDB, with JWT authentication.
 
 ## Boilerplate Features:
 - Registration
