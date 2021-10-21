@@ -64,3 +64,8 @@ npm start
 
 ## Contributions
 Contributions are welcomed, to learn more about it, please check [Contributing.md](https://github.com/udz-codes/express-rest-boilerplate/blob/master/Contributing.md).
+
+#### Current Contributors
+<a href="https://github.com/udz-codes/express-rest-boilerplate/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=udz-codes/express-rest-boilerplate" />
+</a>
