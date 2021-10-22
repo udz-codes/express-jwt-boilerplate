@@ -1,5 +1,7 @@
 # ExpressJS REST API Boilerplate
 
+<a href="https://expressjs.com/"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" /></a> <a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" /></a>
+
 A cookiecutter template to create REST API with ExpressJS and MongoDB, with JWT authentication.
 
 ## Boilerplate Features:
@@ -62,7 +64,7 @@ npm start
 | [dotenv](https://www.npmjs.com/package/dotenv) | ^10.0.0 | Loads environment variables |
 | [cors](https://www.npmjs.com/package/cors) | ^2.8.5| enable CORS |
 
-## Contributions
+## Contributions <a href="https://github.com/udz-codes/express-jwt-boilerplate/blob/master/LICENSE"><img src="https://img.shields.io/github/license/udz-codes/express-jwt-boilerplate" /></a> <a href="https://github.com/udz-codes/express-jwt-boilerplate/issues"><img src="https://img.shields.io/github/issues/udz-codes/express-jwt-boilerplate" /></a>
 Contributions are welcomed, to learn more about it, please check [Contributing.md](https://github.com/udz-codes/express-rest-boilerplate/blob/master/Contributing.md).
 
 #### Current Contributors
