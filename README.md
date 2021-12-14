@@ -11,7 +11,7 @@ A cookiecutter template to create REST API with ExpressJS and MongoDB, with JWT 
 - Private routes example
 - Schema Validation check (email validation, minimum characters, etc.)
 - Password Encryption
-- MongoDB Backend
+- MongoDB Database
 
 ## Setup
 1. Clone the project
