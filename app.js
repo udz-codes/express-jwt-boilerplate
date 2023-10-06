@@ -10,11 +10,13 @@ const homeRoutes = require("./routes/home");
 const authRoutes = require("./routes/auth");
 const privateRoutes = require("./routes/privateRoutes");
 const exampleRoutes = require("./routes/examples/paginationExample");
+const limiter = require("./routes/examples/limiter");
 
 // Middlewares
 app.use(cors());
 app.use(express.json());
 // -> Route Middlewares
+app.use(limiter);
 app.use("/", homeRoutes);
 app.use("/api/private", privateRoutes);
 app.use("/api/user", authRoutes);
