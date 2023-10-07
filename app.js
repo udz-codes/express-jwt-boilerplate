@@ -9,18 +9,22 @@ require("dotenv/config"); // Environment variables
 const homeRoutes = require("./routes/home");
 const authRoutes = require("./routes/auth");
 const privateRoutes = require("./routes/privateRoutes");
-const exampleRoutes = require("./routes/examples/paginationExample");
-const limiter = require("./routes/examples/limiter");
+const paginationExample = require("./routes/examples/paginationExample");
+const limiter = require("./middlewares/rateLimiter");
+
+// Constants
+const EXAMPLES_ROUTE = "/api/examples";
 
 // Middlewares
 app.use(cors());
 app.use(express.json());
-// -> Route Middlewares
 app.use(limiter);
+// -> Route Middlewares
 app.use("/", homeRoutes);
 app.use("/api/private", privateRoutes);
 app.use("/api/user", authRoutes);
-app.use("/api/example", exampleRoutes);
+// -> Example Routes
+app.use(`${EXAMPLES_ROUTE}/pagination`, paginationExample);
 
 // Connect to Database
 mongoose.connect(process.env.DB_URL, () => {
