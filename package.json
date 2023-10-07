@@ -18,6 +18,7 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.18.2",
+    "express-rate-limit": "^7.1.0",
     "joi": "^17.10.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^6.12.0"
