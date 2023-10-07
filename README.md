@@ -52,6 +52,7 @@ npm start
 | /api/user/register | Registration route that saves information of a new user on the database  | Duplicate user check, password hashing |
 | /api/user/login | Login route that returns token on successful login  | User existance check, Password match check, JWT Creation |
 | /api/private | Example private route that can't be accessed without a token  | "auth-token" header is required, which means user must be logged in to access this route |
+| **Examples** | | |
 | **Endpoint** | **Purpose** | **Link** |
 | /api/examples/pagination/products?limit=100&page=3 | Demonstrating Pagination | [paginationExample.js](https://github.com/udz-codes/express-jwt-boilerplate/blob/master/routes/examples/paginationExample.js) |
 
