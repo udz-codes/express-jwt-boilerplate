@@ -2,6 +2,8 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const mongoose = require("mongoose");
+const fs = require('fs');
+const path = require('path');
 
 require("dotenv/config"); // Environment variables
 
@@ -21,8 +23,21 @@ app.use(express.json());
 app.use(limiter);
 // -> Route Middlewares
 app.use("/", homeRoutes);
+
 app.use("/api/private", privateRoutes);
 app.use("/api/user", authRoutes);
+
+/**
+ * Dynamically import all routes from the routes/api directory
+ */
+fs.readdirSync(`${__dirname}/routes/api/`).forEach((file) => {
+  if (file.endsWith('.js')) {
+    const route = require(`./routes/api/${file}`);
+    const prefix = path.basename(file, '.js'); // Extract the filename without the '.js' extension
+    app.use(`/api/${prefix}`, route); // Mount the route with a dynamic prefix
+  }
+});
+
 // -> Example Routes
 app.use(`${EXAMPLES_ROUTE}/pagination`, paginationExample);
 
